@@ -1,0 +1,122 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+
+
+
+body {
+    margin: 0;
+    
+}
+
+
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin: 0em;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.humburger {
+    height: 50px;
+}
+
+.header {
+    padding: 10px;
+	font-family: Helvetica;
+    margin-top: 0em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1em;
+
+}
+
+.coursename {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 0em;
+
+}
+
+
+.humburgerposition {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+
+}
+
+.instructorposition {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0;
+}
+
+
+.mainsection {
+    
+    background-color:white;
+    padding: 0.5em;
+    margin: 0.5em;
+    
+
+}
+
+.note {
+
+background-color: lightgray;
+margin: 0em;
+padding: 0.5em;
+width: 416px;
+
+
+
+}
+
+.allnotes_btn {
+    text-align: right;
+    background-color: lightgrey;
+    padding-right: 0.5em;
+
+}
+
+
+
+.folders {
+    width: 416px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 1em;
+    margin: auto;
+    padding-right: 0em;
+    
+
+
+   
+}
+
+.folder {
+    background-color: lightgray;
+    text-align: center;
+  
+}
+
+.textfolder {
+    padding-top: 5em;
+
+}
