@@ -21,6 +21,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin: 0em;
+    padding-left: 1.5em;
 }
 
 p {
@@ -126,6 +127,7 @@ width: 416px;
 
 .textfolder {
     padding-top: 4em;
+    
 
 }
 
@@ -192,7 +194,7 @@ width: 416px;
 
 .notefolder {
     background-color: lightgray;
-    text-align: center;
+    text-align: left;
     margin-top: 0.5em;
 }
 
