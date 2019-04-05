@@ -27,6 +27,10 @@ p {
     font-family: 'Montserrat', sans-serif;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    text-align: justify;
+    padding: 1.5em;
+    font-size: 12px;
+
 }
 
 .humburger {
@@ -34,6 +38,7 @@ p {
 }
 
 .header {
+    width: 424px;
     padding: 10px;
 	font-family: Helvetica;
     margin-top: 0em;
@@ -71,6 +76,7 @@ p {
     background-color:white;
     padding: 0.5em;
     margin: 0.5em;
+    width: 416px;
     
 
 }
@@ -90,6 +96,8 @@ width: 416px;
     text-align: right;
     background-color: lightgrey;
     padding-right: 0.5em;
+    
+    width: 424px;
 
 }
 
@@ -99,10 +107,10 @@ width: 416px;
     width: 416px;
     height: 600px;
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 208px 208px;
+    grid-template-rows: 208px 208px 208px 208px  ;
     grid-gap: 1em;
-    margin: auto;
+    margin-left: 1em;
     padding-right: 0em;
     
 
@@ -117,6 +125,83 @@ width: 416px;
 }
 
 .textfolder {
-    padding-top: 5em;
+    padding-top: 4em;
 
 }
+
+
+
+
+.notesbtns {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 416px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+
+}
+
+.lowerbtns {
+    text-align: right;
+}
+
+
+.studnotes {
+    width: 416px;
+    margin: 1em;
+    
+    
+}
+
+.gennotes {
+    width: 416px;
+    margin-left: 1em;
+    
+}
+
+.cssbtn {
+    background-color: blueviolet;
+    color: white;
+}
+.htmlbtn {
+    background-color: purple;
+    color: white;
+
+}
+
+.javabtn {
+    background-color: plum;
+    color: white;
+
+}
+.asignmentsbtn {
+    background-color: darkorchid;
+    color: white;
+
+}
+
+.importantbtn {
+    background-color: lightpink;
+    color: white;
+}
+
+.notefolder {
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #e45252;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: right;
+  }
