@@ -30,35 +30,54 @@
       
         <h2 class="gennotes">NOTES</h2>
 
-        <section class="notesbtns">
-          <div class="">
-                <button class="cssbtn"type="button" name="button">CSS</button>
+        <form class="notesbtns" id="notes">
+          <div class="filters input">
+            <input type="radio" name="notes" id="cssbtn" value="cssbtn">
+            <label for="cssbtn" class="cssbtn btnstyle">CSS</label>
           </div>
-          <div class="">
-              <button class="htmlbtn"type="button" name="button">HTML</button>
-           </div>
-          <div class="">
-              <button class="javabtn"type="button" name="button">JAVA</button>
+          <div class="filters input">
+            <input type="radio" name="notes" id="javabtn" value="javabtn">
+            <label for="javabtn" class="javabtn btnstyle">Javascript</label>
+          </div>
+          <div class="filters input">
+            <input type="radio" name="notes" id="htmlbtn" value="htmlbtn">
+            <label for="htmlbtn" class="htmlbtn btnstyle">HTML</label>
+          </div>
+          <div class="filters input lowerbtns">
+            <input type="radio" name="notes" id="asignmentsbtn" value="asignmentsbtn">
+            <label for="asignmentsbtn" class="asignmentsbtn btnstyle">Assignments</label>
+          </div>
+          <div class="filters input lowerbtns">
+            <input type="radio" name="notes" id="importantbtn" value="importantbtn">
+            <label for="importantbtn" class="importantbtn btnstyle">Important</label>
+          </div>
+
+
+
+          <!-- <div class="">
+              <button id="" class="javabtn"type="button" name="button">JAVA</button>
           </div>
           
           <div class="lowerbtns">
-              <button class="asignmentsbtn"type="button" name="button">Assignments</button>
+              <button id="" class="asignmentsbtn"type="button" name="button">Assignments</button>
           </div>
           <div class="lowerbtns">
-              <button class="importantbtn"type="button" name="button">Important</button>
-          </div>
-        </section>
+              <button id="" class="importantbtn"type="button" name="button">Important</button>
+          </div> -->
+        </form>
 
         <div>
           <h3 class="studnotes">STUDENT'S NOTES</h3>
         </div>
   
-      <article class="folders">
+      <article class="folders" id="all-folders">
               <div class="folder">
                 <h3 class="notefolder">NOTE 1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eius praesentium natus ullam, qui molestias amet fugit a sapiente architecto, quo deserunt et numquam nesciunt, illo error temporibus voluptatibus corporis?</p>
-                <span class="dot"></span>
-                <span class="dot"></span>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
               </div> 
 
 
